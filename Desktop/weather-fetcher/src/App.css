@@ -1,0 +1,231 @@
+.Container{
+width: 1280px;
+margin:0px auto;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.bg{
+  background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-1280x720.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.WeatherTeller{
+  width: 750px;
+  height: 350px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background-color: rgba(0, 50, 50, 0.9);
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:20px;
+  position: relative;
+}
+.Search{
+  position: absolute;
+  top:30px;
+  height: 40px;
+  width: 600px;
+  background-color: rgba(15, 66, 66, 0.56);
+  border:none;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.Search:focus-visible{
+  border: none;
+  outline: none;
+}
+.Search:focus::placeholder{
+color:rgba(15, 66, 66, 0);
+
+}
+@media (min-width: 576px) {
+  
+.Container{
+  width: 400px;
+  
+}
+.bg{
+  background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-800x600.jpg);
+}
+.WeatherTeller{
+  width: 350px;
+  height: 200px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  gap:10px;
+  font-size: 14px;
+}
+.Search{
+  position: absolute;
+  top:14px;
+  height: 22px;
+  width: 310px;
+  background-color: rgba(15, 66, 66, 0.56);
+  border:none;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+}
+@media (min-width: 768px) {
+  
+.Container{
+  width: 700px;
+  
+}
+.bg{
+  background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-1024x640.jpg);
+}
+.WeatherTeller{
+  width: 470px;
+  height: 300px;
+  border-radius: 38px;
+  -webkit-border-radius: 38px;
+  -moz-border-radius: 38px;
+  -ms-border-radius: 38px;
+  -o-border-radius: 38px;
+  gap:15px;
+  font-size: 16px;
+}
+.Search{
+  position: absolute;
+  top:27px;
+  height: 40px;
+  width: 410px;
+  background-color: rgba(15, 66, 66, 0.56);
+  border:none;
+  font-size: 21px;
+  text-align: center;
+  color: white;
+}
+}
+@media ((min-width: 992px)) {
+  
+.Container{
+  width: 900px;
+  
+}
+.bg{
+  background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-1024x640.jpg);
+}
+.WeatherTeller{
+  width: 700px;
+  height: 330px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  gap:20px;
+  font-size: 18px;
+}
+.Search{
+  position: absolute;
+  top:27px;
+  height: 40px;
+  width: 610px;
+  background-color: rgba(15, 66, 66, 0.56);
+  border:none;
+  font-size: 21px;
+  text-align: center;
+  color: white;
+}
+}
+@media(min-width: 1200px){
+  .Container{
+    width: 1200px;
+    margin:0px auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .bg{
+      background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-1280x720.jpg);
+      width: 100%;
+      height: 100vh;
+      background-size: cover;
+    }
+    .WeatherTeller{
+      width: 750px;
+      height: 350px;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+      background-color: rgba(0, 50, 50, 0.9);
+      color: white;
+      font-family: sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap:20px;
+      position: relative;
+    }
+    .Search{
+      position: absolute;
+      top:30px;
+      height: 40px;
+      width: 600px;
+      background-color: rgba(15, 66, 66, 0.56);
+      border:none;
+      font-size: 20px;
+      text-align: center;
+      color: white;
+    }
+    .Search:focus-visible{
+      border: none;
+      outline: none;
+    }
+    .Search:focus::placeholder{
+    color:rgba(15, 66, 66, 0);
+    
+    }
+}
+@media (min-width: 1920px) {
+  
+  .Container{
+    width: 1500px;
+  }
+  .bg{
+    background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-1920x1080.jpg);
+  }
+  .WeatherTeller{
+    width: 850px;
+    height: 410px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    gap:25px;
+    font-size: 22px;
+}
+  .Search{
+    position: absolute;
+    top:20px;
+    height: 55px;
+    width: 750px;
+    background-color: rgba(15, 66, 66, 0.56);
+    border:none;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+  }
+  }
