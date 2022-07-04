@@ -52,8 +52,7 @@ color:rgba(15, 66, 66, 0);
 @media (min-width: 319px) {
   
 .Container{
-  width: 400px;
-  
+  width: 319px;
 }
 .bg{
   background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-800x600.jpg);
