@@ -24,7 +24,7 @@
   width: 1150px;
   margin-left: auto;
   margin-right: auto;
-  height: 100vh;
+  height: 100%;
 }
 
 .Email {
@@ -85,6 +85,10 @@ input:focus-visible {
     width: 300px;
   }
 
+  .Contactbg::before {
+    background-image: url(./Images/vgnXJSTablet.jpg);
+  }
+
   #text {
     width: 250px;
     height: 150px;
@@ -96,9 +100,18 @@ input:focus-visible {
     width: 700px;
   }
 
+  .Contactbg::before {
+    background-image: url(./Images/vgnXJSTablet.jpg);
+  }
+
   #text {
     width: 350px;
     height: 150px;
     overflow: auto;
+  }
+}
+@media (min-width: 1440px) {
+  .Contactbg::before {
+    background-image: url(./Images/vgnXJS1080.jpg);
   }
 }

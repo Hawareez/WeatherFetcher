@@ -7,7 +7,7 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            background-image: url(./Images/wp6658601-table-aesthetic-wallpapers.jpg);
+            background-image: url(./Images/key1366.jpeg);
             background-size: cover;
             filter:brightness(65%);
             -webkit-filter:brightness(65%);
@@ -18,7 +18,7 @@
     width: 1150px;
     margin-left:auto;
     margin-right: auto;
-    height: 100vh;
+    height: 100%;
     }
 .text{
     margin-left:auto;
@@ -37,6 +37,7 @@ p{
     font-size: 18px;
     color: #e4f8e4;
     font-family: "Finlandica", sans-serif;
+    text-align: center;
 }
 h1{
     color: gray;
@@ -90,13 +91,26 @@ h1{
         margin-right: 10px;
     }
 }
+@media (min-width: 320px) and (max-width:767px) {
+    .Aboutbg::before{
+        background-image: url(./Images/keyTablet.jpeg);
+    }
+}
 @media (min-width: 768px) and (max-width:991px) {
     .container{
         width: 700px;
         
     }
+    .Aboutbg::before{
+        background-image: url(./Images/keyTablet.jpeg);
+    }
     .text p {
         width: 400px;
         text-align: center;
+    }
+}
+@media (min-width: 1440px) {
+    .Contactbg::before{
+        background-image: url(./Images/key1080.jpeg);
     }
 }
