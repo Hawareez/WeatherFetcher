@@ -63,7 +63,7 @@ color:rgba(15, 66, 66, 0);
 .Container{
   width: 319px;
 }
-.bg{
+.bg::before{
   background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-800x600.jpg);
 }
 .WeatherTeller{
