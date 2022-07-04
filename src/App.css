@@ -13,7 +13,7 @@ justify-content: center;
 .bg{
   overflow: hidden;
   width: 100%;
-  height: 80%;
+  height: 80vh;
   background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-1280x720.jpg);
   background-size: cover;
 }
