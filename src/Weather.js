@@ -5,7 +5,6 @@ let [City , setCity] = useState("America");
 let [Weather , setWeather] = useState("Weather");
 let [Humidity , setHumidity] = useState("Humidity");
 let [windSpeed , setWindSpeed] = useState("WindSpeed");
-let [height] = useState(window.innerHeight);
 useEffect(() => {
     fetch("https://api.openweathermap.org/geo/1.0/direct?q=" + City + "&appid=5e229201d08f0d3371f84d98bcd5d81d")
     .then((data) => data.json()).then((data) => {
@@ -20,8 +19,8 @@ useEffect(() => {
     })
             }, [City])
 return (
-<div className="bg" style={{height:height}}>
-<div className="Container" style={{height:height}}>
+<div className="bg">
+<div className="Container">
 <div className="WeatherTeller">
 <input className="Search" placeholder="Town" onBlur={() => { document.querySelector(".Search").value !== "" ? setCity((document.querySelector(".Search").value)) : console.log("")}}></input>
 <h1 className="City"> Weather For {City} </h1>
