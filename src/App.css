@@ -49,7 +49,7 @@ justify-content: center;
 color:rgba(15, 66, 66, 0);
 
 }
-@media (min-width: 576px) {
+@media (min-width: 319px) {
   
 .Container{
   width: 400px;
@@ -59,7 +59,7 @@ color:rgba(15, 66, 66, 0);
   background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-800x600.jpg);
 }
 .WeatherTeller{
-  width: 350px;
+  width: 310px;
   height: 200px;
   border-radius: 30px;
   -webkit-border-radius: 30px;
