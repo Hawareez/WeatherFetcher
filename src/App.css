@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .Container{
-width: 1280px;
+width: 1200px;
 margin:0px auto;
 height: 100%;
 display: flex;
