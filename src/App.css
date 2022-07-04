@@ -13,9 +13,12 @@ justify-content: center;
 .bg{
   overflow: hidden;
   width: 100%;
-  height: 92vh;
+  height: 100vh;
   background-image: url(./Backgrounds/berchtesgadener-land-4k-mountains-sunset-alps-besthqwallpapers.com-1280x720.jpg);
   background-size: cover;
+  position: fixed;
+  top:0;
+  right: 0;
 }
 .WeatherTeller{
   width: 750px;
